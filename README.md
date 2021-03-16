@@ -27,7 +27,7 @@ Dauer | 999:59:59 (h:min:s)| 1s
 **Die Leistung ist auf Spannung multipliziert mit dem Strom auf 150W begrenzt. Ein Strom von 10A ist nur über die Schraubanschlüsse erlaubt.**  
 Die Zeit wird erst ab einer Leistung von 0,5W begonnen.
 
-_Diagramm für Arbeitsbereich !!_
+![Arbeitsbereich][Diagramm_Arbeitsbereich]
 
 ## Anschlüsse
 
@@ -99,3 +99,6 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
 3. Grenzwerte kontrollieren bzw. einstellen.  
 4. Die zutestende Quelle anschließen und die Potentiometer im Uhrzeigersinn auf den gewünschten Endladestrom einstellen. (Erst grob dann fein)  
 5. Beim Erreichen eines Grenzwertes wird die Last abgeschaltet und die Messung beendet.  
+
+
+[Diagramm_Arbeitsbereich]:https://github.com/kirk-loeten/150W-Elektronische-Last-von-DM/blob/85e13ad64ef386654d56cab99040c5b73d60fa3f/bilder/ElektronischeLast.png
