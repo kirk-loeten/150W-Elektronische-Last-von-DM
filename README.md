@@ -1,5 +1,7 @@
 # 150W Elektronische Last von DIYMORE.CC
 
+Die soll eine übersetzte und geteste Anleitung werden.
+
 ## Lieferumfang
 
 [150W LDM Digital Electronic Load Discharge Capacity Tester USB Voltmeter Ammeter](https://www.diymore.cc/products/150w-ldm-digital-electronic-load-discharge-capacity-tester-usb-voltmeter-ammeter?_pos=3&_sid=74f1b38ee&_ss=r)
@@ -55,7 +57,8 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
   * doppelte Betätigung: Kapazität auf 0 Ah setzen  
   * dreimal betätigen: Energie auf 0 Wh setzen  
   * viermal betätigen: Messdauer auf 00:00:00 setzen  
-  * siebenmal betätigen ohne Last: Strom abnullen (kalibireren), Werksreset aller Parameter  
+  * siebenmal betätigen ohne Last: Strom abnullen (kalibireren)
+  * zehnmal betätigen: Werksreset aller Parameter  
   3. Auf den Seiten 6, 7, 9, 11 und 13 
   * zweimal betätigen: Wert erhöhen
   * dreimal betätigen: Wert reduzieren
@@ -68,30 +71,45 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
 
 1. Begrüßung _Bild einfügen !!_
    
-2.  _Bild einfügen !!_
+2. Übersicht 1 _Bild einfügen !!_
 
-3. _Bild einfügen !!_
+3. Übersicht 2 _Bild einfügen !!_
 
-4. _Bild einfügen !!_
+4. Englische Seite mit phy. Größen _Bild einfügen !!_
 
-5. _Bild einfügen !!_
+5. Chinesische Seite mit phy. Größen _Bild einfügen !!_
 
-6. _Bild einfügen !!_
+6. Hintergrundbeleuchtung _Bild einfügen !!_
+   Dauer die Beleuchtung:  
+   1. Aus (OFF)  
+   2. 01 - 59s  
+   3. Dauer ein (ON)  
 
-7. _Bild einfügen !!_
+7. Spannungsobergrenze _Bild einfügen !!_  
+   &gt; 150V
+   
+8. Überspannungswarnung **Nicht vorhanden**  
+   &gt; 150V!  
+   
+9. Spannungsuntergrenze _Bild einfügen !!_  
+   &lt; 5.00V  
+   z.B. Tiefendladungsgrenze bei Akkumulatoren  
+   
+10. Unterspannungswarnung **Nicht vorhanden**  
+   &lt; 5.00V!  
+   
+11. Stromobergrenze _Bild einfügen !!_  
+   &gt; 10,0A  
 
-8. _Bild einfügen !!_
-
-9. _Bild einfügen !!_
-
-10. _Bild einfügen !!_
-
-11. _Bild einfügen !!_
-
-12. _Bild einfügen !!_
-
-13. _Bild einfügen !!_
-
+12. Überstromwarnung **Nicht vorhanden**  
+   &gt; 10,0A!  
+   
+13. Leistungsbegrenzung _Bild einfügen !!_  
+   &gt; 150W  
+   
+14. Leistungswarnung **Nicht vorhanden**  
+   &gt; 150W!  
+    
 ## Arbeitsschritte
 
 1. Die elektronische Last mit Spannung versorgen. Bei der Potentiometer auf 0 drehen (gegen den Uhrzeigersinn).  
