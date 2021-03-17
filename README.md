@@ -89,30 +89,26 @@ Die Stromeinstellung erfolgt mit den Potentiometern grob (coarse) und fein (fine
 7. Spannungsobergrenze _Bild einfügen !!_  
    &gt; 150V
    
-8. Überspannungswarnung  
-   **wird bei Überschreiten der Grenze von Seite 7 angezeigt**  
+8. Überspannungswarnung **wird bei Überschreiten der Grenze von Seite 7 angezeigt**  
    &gt; 150V!  
    
 9. Spannungsuntergrenze _Bild einfügen !!_  
    &lt; 5.00V  
    z.B. Tiefendladungsgrenze bei Akkumulatoren  
    
-10. Unterspannungswarnung  
-   **wird bei Unterschreiten der Grenze von Seite 9 angezeigt**    
+10. Unterspannungswarnung **wird bei Unterschreiten der Grenze von Seite 9 angezeigt**    
    &lt; 5.00V!  
    
 11. Stromobergrenze _Bild einfügen !!_  
    &gt; 10,0A  
 
-12. Überstromwarnung  
-   **wird bei Überschreiten der Grenze von Seite 11 angezeigt**  
+12. Überstromwarnung **wird bei Überschreiten der Grenze von Seite 11 angezeigt**  
    &gt; 10,0A!  
    
 13. Leistungsbegrenzung _Bild einfügen !!_  
    &gt; 150W  
    
-14. Leistungswarnung  
-   **wird bei Überschreiten der Grenze von Seite 11 angezeigt**  
+14. Leistungswarnung **wird bei Überschreiten der Grenze von Seite 13 angezeigt**  
    &gt; 150W!  
     
 ## Arbeitsschritte
