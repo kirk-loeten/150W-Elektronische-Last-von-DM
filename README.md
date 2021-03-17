@@ -26,7 +26,7 @@ Impedenz | 0 bis 999.9Ω | 0,01Ω
 Temperatur | 0 bis 99°C | 1°C  
 Dauer | 999:59:59 (h:min:s)| 1s
 
-**Die Leistung ist auf Spannung multipliziert mit dem Strom auf 150W begrenzt. Ein Strom von 10A ist nur über die Schraubanschlüsse erlaubt.**  
+**Die Leistung ist auf 150W begrenzt. Ein Strom von 10A ist nur über die Schraubanschlüsse erlaubt.**  
 Die Zeit wird erst ab einer Leistung von 0,5W begonnen.
 
 ![Arbeitsbereich][Diagramm_Arbeitsbereich]
@@ -37,8 +37,8 @@ Versorgung mit 6 - 12Vdc (Minus außen, plus innen)
 
 **Messanschlüsse**
 
-1. Schraubklemmen  
-2. Hohlstecker 5,5mm (Innen 2,1mm)  
+1. Schraubklemmen (bis 10A)
+2. Hohlstecker 5,5mm (Innen 2,1mm) (Je nach Typ bis 5A)  
 3. USB Micro  
 4. USB-C  
 5. USB-Mini  
@@ -50,22 +50,23 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
 
 ## Bedienelemte
 
-1. eine Taste zur Menueführung  
-  1. einfache Betätigung: Menüseite weiter blättern  
-  2. Auf den Seiten 2 bis 4  
+### Taste
+
+1. einfache Betätigung: Menüseite weiter blättern  
+2. Auf den Seiten 2 bis 4  
   * lange (_Dauer??_) Betätigung: löschte alle Aufzeichungen  
   * doppelte Betätigung: Kapazität auf 0 Ah setzen  
   * dreimal betätigen: Energie auf 0 Wh setzen  
   * viermal betätigen: Messdauer auf 00:00:00 setzen  
   * siebenmal betätigen ohne Last: Strom abnullen (kalibireren)
   * zehnmal betätigen: Werksreset aller Parameter  
-  3. Auf den Seiten 6, 7, 9, 11 und 13 
+3. Auf den Seiten 6, 7, 9, 11 und 13 
   * zweimal betätigen: Wert erhöhen
   * dreimal betätigen: Wert reduzieren
   * festhalter der Taste führt die letzte Funktion (erhöhen oder reduzieren) kontinuierlich durch
-2. zwei Potentiometer für Strom fein und grob _prüfen ob der Einstellbereich von den Stromgrenzen abhängt ??_
-   0 beim Drehen gegen den Uhrzeigersinn
-   max im Uhrzeigersinn wird durch die Begrenzungen beschränkt
+
+### Potentiometer
+Die Stromeinstellung erfolgt mit den Potentiometern grob (coarse) und fein (fine). Beim Drehen gegen den Uhrzeigersinn sinkt der Strom bis auf 0A. Durch Drehen im Uhrzeigersinn wird der Strom auf bis zu 10A erhöht. Der Maximalwert ist unabhängig von der eingestellten Stromgrenze, so kann man bei kleinen Strömen schnell über die eingestellte Begrenzung erreichen.  
 
 ## Menueseite und Funktion der Taste
 
@@ -79,8 +80,8 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
 
 5. Chinesische Seite mit phy. Größen _Bild einfügen !!_
 
-6. Hintergrundbeleuchtung _Bild einfügen !!_
-   Dauer die Beleuchtung:  
+6. Hintergrundbeleuchtung _Bild einfügen !!_  
+   Dauer der Beleuchtung nach dem letzten Tastendruck:  
    1. Aus (OFF)  
    2. 01 - 59s  
    3. Dauer ein (ON)  
@@ -88,26 +89,30 @@ Serielle Schnittstelle 3,3V Pegel, Baudrate?, Funktion?
 7. Spannungsobergrenze _Bild einfügen !!_  
    &gt; 150V
    
-8. Überspannungswarnung **Nicht vorhanden**  
+8. Überspannungswarnung  
+   **wird bei Überschreiten der Grenze von Seite 7 angezeigt**  
    &gt; 150V!  
    
 9. Spannungsuntergrenze _Bild einfügen !!_  
    &lt; 5.00V  
    z.B. Tiefendladungsgrenze bei Akkumulatoren  
    
-10. Unterspannungswarnung **Nicht vorhanden**  
+10. Unterspannungswarnung  
+   **wird bei Unterschreiten der Grenze von Seite 9 angezeigt**    
    &lt; 5.00V!  
    
 11. Stromobergrenze _Bild einfügen !!_  
    &gt; 10,0A  
 
-12. Überstromwarnung **Nicht vorhanden**  
+12. Überstromwarnung  
+   **wird bei Überschreiten der Grenze von Seite 11 angezeigt**  
    &gt; 10,0A!  
    
 13. Leistungsbegrenzung _Bild einfügen !!_  
    &gt; 150W  
    
-14. Leistungswarnung **Nicht vorhanden**  
+14. Leistungswarnung  
+   **wird bei Überschreiten der Grenze von Seite 11 angezeigt**  
    &gt; 150W!  
     
 ## Arbeitsschritte
