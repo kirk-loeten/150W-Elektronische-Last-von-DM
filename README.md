@@ -1,6 +1,6 @@
 # 150W Elektronische Last von DIYMORE.CC
 
-Die soll eine übersetzte und geteste Anleitung werden.
+Dies ist eine übersetzte und geteste Anleitung werden.
 
 ## Lieferumfang
 
